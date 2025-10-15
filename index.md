@@ -1,14 +1,9 @@
-# Welcome to Cain Cosmogenete!
+# Mon portfolio
 
-This is the home page of the Cain Cosmogenete website. 
+Bienvenue sur mon site !
 
-## Instructions to Add Content
+Voici les rubriques que tu pourras explorer bientôt :
 
-To add new content, you can follow these steps:
-
-1. Navigate to the desired section of the repository.
-2. Create a new markdown file for your content.
-3. Use proper markdown syntax for formatting.
-4. Commit your changes with a descriptive message.
-
-Happy contributing!
+- [Écrits](Écrits/README.md)  
+- [Photos](Photos/README.md)  
+- [Vidéos](Vidéos/README.md)
