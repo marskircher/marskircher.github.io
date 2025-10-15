@@ -20,30 +20,42 @@
             margin-bottom: 20px;
         }
 
+        p {
+            margin-bottom: 40px;
+        }
+
+        /* Menu horizontal */
         ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            justify-content: center; /* centre le menu horizontalement */
+            gap: 30px; /* espace entre les rubriques */
         }
 
         li {
-            margin: 10px 0;
+            margin: 0;
         }
 
         a {
+            display: inline-block;
+            padding: 10px 20px;
             text-decoration: none;
-            color: #1a73e8; /* liens bleu clair */
+            color: #ffffff;
+            background-color: #1a73e8;
+            border-radius: 5px;
             font-size: 1.2em;
+            transition: background-color 0.3s;
         }
 
         a:hover {
-            text-decoration: underline;
+            background-color: #3ea0ff;
         }
     </style>
 </head>
 <body>
     <h1>Mars Kircher - Portfolio Artistique</h1>
-    <p>Bienvenue sur mon site !</p>
-    <p>Voici les rubriques que tu pourras explorer bientôt :</p>
+    <p>Bienvenue sur mon site !<br>Voici les rubriques que tu pourras explorer bientôt :</p>
     <ul>
         <li><a href="Écrits/README.md">Écrits</a></li>
         <li><a href="Photos/README.md">Photos</a></li>
