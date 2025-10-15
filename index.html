@@ -9,19 +9,27 @@
         }
 
         body {
+            margin: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        /* Header fixe */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000000;
+            padding: 20px 0;
             text-align: center;
-            padding: 50px;
-            background-color: #000000; /* fond noir */
-            color: #ffffff;            /* texte blanc */
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
         }
 
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-
-        p {
-            margin-bottom: 40px;
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
         }
 
         /* Menu horizontal */
@@ -29,8 +37,10 @@
             list-style: none;
             padding: 0;
             display: flex;
-            justify-content: center; /* centre le menu horizontalement */
-            gap: 30px; /* espace entre les rubriques */
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 0;
         }
 
         li {
@@ -39,28 +49,44 @@
 
         a {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
             color: #ffffff;
             background-color: #1a73e8;
-            border-radius: 5px;
+            border-radius: 6px;
             font-size: 1.2em;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
         a:hover {
             background-color: #3ea0ff;
+            transform: translateY(-2px);
+        }
+
+        /* Contenu principal */
+        main {
+            padding-top: 160px; /* espace pour le header fixe */
+            text-align: center;
+        }
+
+        main p {
+            margin-bottom: 40px;
         }
     </style>
 </head>
 <body>
-    <h1>Mars Kircher - Portfolio Artistique</h1>
-    <p>Bienvenue sur mon site !<br>Voici les rubriques que tu pourras explorer bientôt :</p>
-    <ul>
-        <li><a href="Écrits/README.md">Écrits</a></li>
-        <li><a href="Photos/README.md">Photos</a></li>
-        <li><a href="Vidéos/README.md">Vidéos</a></li>
-        <li><a href="Boutique/README.md">Boutique</a></li>
-    </ul>
+    <header>
+        <h1>Mars Kircher - Portfolio Artistique</h1>
+        <ul>
+            <li><a href="Écrits/README.md">Écrits</a></li>
+            <li><a href="Photos/README.md">Photos</a></li>
+            <li><a href="Vidéos/README.md">Vidéos</a></li>
+            <li><a href="Boutique/README.md">Boutique</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <p>Bienvenue sur mon site !<br>Voici les rubriques que tu pourras explorer bientôt :</p>
+    </main>
 </body>
 </html>
