@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Écriture — Mars Kircher</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../style.css">
+
+  <style>
+    .category-hero {
+      padding: 130px 32px 40px;
+    }
+
+    .category-hero .hero-title {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(64px, 12vw, 180px);
+      font-weight: 500;
+      line-height: 0.86;
+      letter-spacing: -0.075em;
+    }
+
+    .writing-choices {
+      padding: 40px 32px 160px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    .writing-choice {
+      min-height: 520px;
+      background: #eeeeee;
+      display: flex;
+      align-items: flex-end;
+      padding: 32px;
+      transition: opacity 0.2s ease;
+    }
+
+    .writing-choice:hover {
+      opacity: 0.7;
+    }
+
+    .writing-choice-title {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(42px, 6vw, 90px);
+      line-height: 0.9;
+      letter-spacing: -0.06em;
+      font-weight: 500;
+    }
+
+    @media (max-width: 700px) {
+      .category-hero {
+        padding: 110px 18px 30px;
+      }
+
+      .category-hero .hero-title {
+        font-size: clamp(58px, 19vw, 110px);
+      }
+
+      .writing-choices {
+        padding: 30px 18px 100px;
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .writing-choice {
+        min-height: 300px;
+        padding: 24px;
+      }
+
+      .writing-choice-title {
+        font-size: clamp(42px, 15vw, 70px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="../../" class="logo">MARS KIRCHER</a>
+
+    <div class="nav-links">
+      <a href="../../#projects">Projets</a>
+      <a href="../../#about">À propos</a>
+      <a href="../../#contact">Contact</a>
+    </div>
+  </nav>
+
+
+  <main>
+
+    <section class="category-hero">
+
+      <div class="hero-title">
+        ÉCRITURE.
+      </div>
+
+    </section>
+
+
+    <section class="writing-choices">
+
+      <a href="poesie/" class="writing-choice">
+
+        <div class="writing-choice-title">
+          POÉSIE.
+        </div>
+
+      </a>
+
+
+      <a href="fictions/" class="writing-choice">
+
+        <div class="writing-choice-title">
+          FICTIONS.
+        </div>
+
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div>
+      Mars Kircher
+    </div>
+
+    <div>
+      Contact
+    </div>
+
+  </footer>
+
+</body>
+</html>
