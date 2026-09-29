@@ -13,6 +13,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../../style.css">
+
+  <style>
+    .category-hero {
+      padding: 130px 32px 40px;
+    }
+
+    .category-hero .hero-title {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(64px, 12vw, 180px);
+      font-weight: 500;
+      line-height: 0.86;
+      letter-spacing: -0.075em;
+    }
+
+    .category-projects {
+      padding: 40px 32px 160px;
+    }
+
+    @media (max-width: 700px) {
+      .category-hero {
+        padding: 110px 18px 30px;
+      }
+
+      .category-hero .hero-title {
+        font-size: clamp(58px, 19vw, 110px);
+      }
+
+      .category-projects {
+        padding: 30px 18px 100px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -30,7 +62,7 @@
 
   <main>
 
-    <section class="hero">
+    <section class="category-hero">
 
       <div class="hero-title">
         PHOTOGRAPHIE.
@@ -39,7 +71,7 @@
     </section>
 
 
-    <section class="projects">
+    <section class="category-projects">
 
       <a href="#" class="project">
 
