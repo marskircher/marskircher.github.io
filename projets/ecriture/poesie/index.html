@@ -1,1 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Poésie — Mars Kircher</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../style.css">
+
+  <style>
+    .category-hero {
+      padding: 130px 32px 40px;
+    }
+
+    .category-hero .hero-title {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(64px, 12vw, 180px);
+      font-weight: 500;
+      line-height: 0.86;
+      letter-spacing: -0.075em;
+    }
+
+    .poems {
+      padding: 40px 32px 160px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    .poem {
+      min-height: 420px;
+      border-top: 1px solid #111;
+      padding-top: 18px;
+    }
+
+    .poem-number {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 45px;
+    }
+
+    .poem-title {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(28px, 3vw, 48px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    .poem-excerpt {
+      max-width: 420px;
+      font-size: 15px;
+      line-height: 1.55;
+      white-space: pre-line;
+    }
+
+    .poem-link {
+      display: inline-block;
+      margin-top: 35px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .poem-link:hover {
+      opacity: 0.45;
+    }
+
+    @media (max-width: 700px) {
+      .category-hero {
+        padding: 110px 18px 30px;
+      }
+
+      .category-hero .hero-title {
+        font-size: clamp(58px, 19vw, 110px);
+      }
+
+      .poems {
+        padding: 30px 18px 100px;
+        grid-template-columns: 1fr;
+        gap: 70px;
+      }
+
+      .poem {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="../../../" class="logo">MARS KIRCHER</a>
+
+    <div class="nav-links">
+      <a href="../../../#projects">Projets</a>
+      <a href="../../../#about">À propos</a>
+      <a href="../../../#contact">Contact</a>
+    </div>
+  </nav>
+
+
+  <main>
+
+    <section class="category-hero">
+
+      <div class="hero-title">
+        POÉSIE.
+      </div>
+
+    </section>
+
+
+    <section class="poems">
+
+      <article class="poem">
+
+        <div class="poem-number">
+          01 — Poème
+        </div>
+
+        <div class="poem-title">
+          Titre du poème
+        </div>
+
+        <div class="poem-excerpt">Quelques vers pourront apparaître ici.
+Une première impression du texte,
+sans nécessairement afficher le poème entier.</div>
+
+        <a href="#" class="poem-link">
+          Lire →
+        </a>
+
+      </article>
+
+
+      <article class="poem">
+
+        <div class="poem-number">
+          02 — Poème
+        </div>
+
+        <div class="poem-title">
+          Titre du poème
+        </div>
+
+        <div class="poem-excerpt">Un autre extrait pourra être présenté ici.
+La mise en page permettra de donner
+une place réelle au texte.</div>
+
+        <a href="#" class="poem-link">
+          Lire →
+        </a>
+
+      </article>
+
+
+      <article class="poem">
+
+        <div class="poem-number">
+          03 — Poème
+        </div>
+
+        <div class="poem-title">
+          Titre du poème
+        </div>
+
+        <div class="poem-excerpt">Troisième emplacement pour tester
+la présentation de plusieurs textes
+sur la page.</div>
+
+        <a href="#" class="poem-link">
+          Lire →
+        </a>
+
+      </article>
+
+
+      <article class="poem">
+
+        <div class="poem-number">
+          04 — Poème
+        </div>
+
+        <div class="poem-title">
+          Titre du poème
+        </div>
+
+        <div class="poem-excerpt">Un dernier emplacement provisoire
+pour vérifier l'équilibre de la page.</div>
+
+        <a href="#" class="poem-link">
+          Lire →
+        </a>
+
+      </article>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div>
+      Mars Kircher
+    </div>
+
+    <div>
+      Contact
+    </div>
+
+  </footer>
+
+</body>
+</html>
