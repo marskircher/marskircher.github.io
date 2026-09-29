@@ -162,7 +162,7 @@ nav {
 
 .about {
   border-top: 1px solid #111;
-  padding: 24px 32px 160px;
+  padding: 24px 32px 90px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 32px;
