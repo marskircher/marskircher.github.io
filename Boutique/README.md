@@ -1,1 +1,0 @@
-Page Boutique à venir !
