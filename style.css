@@ -177,11 +177,14 @@ nav {
   color: #444;
 }
 
+
+/* À PROPOS */
+
 .about {
   border-top: 1px solid #111;
   padding: 24px 32px 90px;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1.4fr 2fr;
   gap: 32px;
   align-items: stretch;
 }
@@ -202,6 +205,7 @@ nav {
   height: 100%;
   min-height: 700px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -228,6 +232,7 @@ nav {
   margin-bottom: 0;
 }
 
+
 footer {
   border-top: 1px solid #111;
   padding: 24px 32px 40px;
@@ -246,6 +251,7 @@ footer {
   font-size: 13px;
   margin-top: 3px;
 }
+
 
 @media (max-width: 700px) {
 
