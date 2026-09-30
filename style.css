@@ -2,291 +2,302 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+  }
 
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body {
-  background: #ffffff;
-  color: #111111;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+background: #ffffff;
+color: #111111;
+font-family: "Inter", sans-serif;
+font-size: 15px;
+line-height: 1.5;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+color: inherit;
+text-decoration: none;
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 72px;
-  padding: 0 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-  background: rgba(255,255,255,0.92);
-  backdrop-filter: blur(12px);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 72px;
+padding: 0 32px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+background: rgba(255,255,255,0.92);
+backdrop-filter: blur(12px);
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: -0.03em;
+display: flex;
+align-items: center;
+gap: 8px;
+font-family: "Space Grotesk", sans-serif;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: -0.03em;
 }
 
 .logo-image {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
+width: 22px;
+height: 22px;
+object-fit: contain;
 }
 
 .nav-links {
-  display: flex;
-  gap: 28px;
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+display: flex;
+gap: 28px;
+font-family: "Space Grotesk", sans-serif;
+font-size: 13px;
+text-transform: uppercase;
+letter-spacing: 0.04em;
 }
 
 .nav-links a:hover {
-  opacity: 0.45;
+opacity: 0.45;
 }
 
 .hero {
-  min-height: 100vh;
-  padding: 150px 32px 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+min-height: 100vh;
+padding: 150px 32px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .hero-title {
-  max-width: 1200px;
-  font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(64px, 12vw, 180px);
-  font-weight: 500;
-  line-height: 0.86;
-  letter-spacing: -0.075em;
+max-width: 1200px;
+font-family: "Space Grotesk", sans-serif;
+font-size: clamp(64px, 12vw, 180px);
+font-weight: 500;
+line-height: 0.86;
+letter-spacing: -0.075em;
 }
 
 .hero-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-top: 100px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+margin-top: 100px;
 }
 
 .hero-description {
-  max-width: 420px;
-  font-size: 16px;
-  line-height: 1.45;
+max-width: 420px;
+font-size: 16px;
+line-height: 1.45;
 }
 
 .scroll {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+font-family: "Space Grotesk", sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 0.08em;
 }
 
 .projects {
-  padding: 120px 32px 90px;
+padding: 120px 32px 90px;
 }
 
 .section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 70px;
-  border-top: 1px solid #111;
-  padding-top: 16px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+margin-bottom: 70px;
+border-top: 1px solid #111;
+padding-top: 16px;
 }
 
 .section-title {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+font-family: "Space Grotesk", sans-serif;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
 }
 
 .section-number {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 12px;
+font-family: "Space Grotesk", sans-serif;
+font-size: 12px;
 }
 
 .project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  margin-bottom: 140px;
-  align-items: end;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 32px;
+margin-bottom: 140px;
+align-items: end;
 }
 
 .project-image {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  background: #eeeeee;
+width: 100%;
+aspect-ratio: 16 / 10;
+background: #eeeeee;
 }
 
 .project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
 }
 
 .project-info {
-  padding-bottom: 4px;
+padding-bottom: 4px;
 }
 
 .project-type {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 14px;
+font-family: "Space Grotesk", sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 0.06em;
+margin-bottom: 14px;
 }
 
 .project-title {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(30px, 4vw, 58px);
-  line-height: 0.95;
-  letter-spacing: -0.05em;
-  font-weight: 500;
-  margin-bottom: 22px;
+font-family: "Space Grotesk", sans-serif;
+font-size: clamp(30px, 4vw, 58px);
+line-height: 0.95;
+letter-spacing: -0.05em;
+font-weight: 500;
+margin-bottom: 22px;
 }
 
 .project-description {
-  max-width: 420px;
-  font-size: 14px;
-  line-height: 1.55;
-  color: #444;
+max-width: 420px;
+font-size: 14px;
+line-height: 1.55;
+color: #444;
 }
 
 .about {
-  border-top: 1px solid #111;
-  padding: 24px 32px 90px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 32px;
+border-top: 1px solid #111;
+padding: 24px 32px 90px;
+display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+gap: 32px;
+align-items: start;
 }
 
 .about-label {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+font-family: "Space Grotesk", sans-serif;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+}
+
+.about-photo {
+width: 100%;
+}
+
+.about-photo img {
+width: 100%;
+height: auto;
+display: block;
 }
 
 .about-text {
-  max-width: 850px;
-  font-size: 17px;
-  line-height: 1.6;
-  color: #222;
+max-width: 850px;
+font-size: 17px;
+line-height: 1.6;
+color: #222;
 }
 
 .about-text p {
-  margin-bottom: 28px;
+margin-bottom: 28px;
 }
 
 .about-text p:first-child {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 30px;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
-  margin-bottom: 36px;
+font-family: "Space Grotesk", sans-serif;
+font-size: 30px;
+line-height: 1.1;
+letter-spacing: -0.03em;
+margin-bottom: 36px;
 }
 
 .about-text p:last-child {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 footer {
-  border-top: 1px solid #111;
-  padding: 24px 32px 40px;
-  display: flex;
-  justify-content: space-between;
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+border-top: 1px solid #111;
+padding: 24px 32px 40px;
+display: flex;
+justify-content: space-between;
+font-family: "Space Grotesk", sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
 }
 
 .contact-email {
-  text-transform: none;
-  letter-spacing: 0;
-  font-family: "Inter", sans-serif;
-  font-size: 13px;
-  margin-top: 3px;
+text-transform: none;
+letter-spacing: 0;
+font-family: "Inter", sans-serif;
+font-size: 13px;
+margin-top: 3px;
 }
 
 @media (max-width: 700px) {
 
-  nav {
-    padding: 0 18px;
-  }
+nav {
+padding: 0 18px;
+}
 
-  .nav-links {
-    gap: 12px;
-    font-size: 10px;
-  }
+.nav-links {
+gap: 12px;
+font-size: 10px;
+}
 
-  .hero {
-    padding: 120px 18px 40px;
-  }
+.hero {
+padding: 120px 18px 40px;
+}
 
-  .hero-title {
-    font-size: clamp(58px, 19vw, 110px);
-  }
+.hero-title {
+font-size: clamp(58px, 19vw, 110px);
+}
 
-  .hero-bottom {
-    display: block;
-    margin-top: 80px;
-  }
+.hero-bottom {
+display: block;
+margin-top: 80px;
+}
 
-  .scroll {
-    margin-top: 30px;
-  }
+.scroll {
+margin-top: 30px;
+}
 
-  .projects {
-    padding: 80px 18px 100px;
-  }
+.projects {
+padding: 80px 18px 100px;
+}
 
-  .project {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin-bottom: 90px;
-  }
+.project {
+grid-template-columns: 1fr;
+gap: 20px;
+margin-bottom: 90px;
+}
 
-  .about {
-    padding: 18px 18px 100px;
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+.about {
+padding: 18px 18px 100px;
+grid-template-columns: 1fr;
+gap: 40px;
+}
 
-  .about-text {
-    font-size: 16px;
-    line-height: 1.6;
-  }
+.about-text {
+font-size: 16px;
+line-height: 1.6;
+}
 
-  .about-text p:first-child {
-    font-size: 27px;
-  }
+.about-text p:first-child {
+font-size: 27px;
+}
 
-  footer {
-    padding: 20px 18px 30px;
-  }
+footer {
+padding: 20px 18px 30px;
+}
 }
