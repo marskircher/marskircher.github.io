@@ -141,6 +141,13 @@ nav {
   background: #eeeeee;
 }
 
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .project-info {
   padding-bottom: 4px;
 }
