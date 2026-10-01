@@ -55,7 +55,8 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 28px;
+  gap: 22px;
+  margin-right: 8px;
   font-family: "Space Grotesk", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
