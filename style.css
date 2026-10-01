@@ -375,8 +375,10 @@ footer {
   .contact-email {
     font-size: 13px;
     margin-top: 4px;
+  }
+}
 
-    .legal-page {
+.legal-page {
   padding: 150px 32px 120px;
 }
 
